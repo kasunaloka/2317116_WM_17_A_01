@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.container{
+  width: 100%;
+  margin: 0;
+  
+  
+}
+.headerarea{
+  margin-left: 56px;
+  margin-top: 32px;
+}
+.logo{
+  width: 125px;
+  position: relative;
+  display: inline-block;
+}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  padding: 20px;
+  background-color: #ffffffff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 12px 0px;
+  border-radius: 8px;
+}
+h1{
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  padding-bottom: 4px;
+}
+p{
+  font-size: 14px;
+  
+  font-weight: 400;
+  line-height: 20px;
+}
+.fill{
+  display: block;
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+input[type="text"],
+input[type="password"]{
+  padding: 15px 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  width: 300px;
+  font-size: 18px;
+}
+.Forgot-PW {
+  margin-top: 8px;
+}
+a{
+  padding: 0 8px;
+  margin-top: 8px;
+  left: -8px;
+  position: relative;
+  font-size: 16px;
+  text-align: center;
+  color: rgb(10, 102, 194);
+  font-weight: 600;
+  text-decoration: none;
+}
+a:hover{
+ text-decoration: underline;
+ background-color: rgb(174, 216, 255);
+ border-radius: 28px;
+}
+.submit{
+  padding-top: 16px;
+}
+input[type="submit"]{
+  padding: 0 24px;
+  font-size: 16px;
+  align-items: flex-start;
+  display: block;
+  font-weight: 600;
+  position: relative;
+  height: 52px;
+  width: 300px;
+  border-radius: 28px;
+  background-color: rgb(10, 102, 194);
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  background-color: rgb(0, 71, 143);
+}
+
+
+.-or-{
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+  color: #666;
+}
+.-or-::before{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content: '';
+  width: 130px;
+  height: 1px;
+  background-color: #666;
+}
+.-or-::after{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content: '';
+  width: 130px;
+  height: 1px;
+  background-color: #666;
+}
+.img{
+  width: 35px;
+  margin-right:10px ;
+}
+.button-signin-with{
+  width: 300px;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  border-radius: 28px;
+  border: 0.4px solid #999;
+  background: transparent;
+  cursor: pointer;
+}
+.button-signin-with:hover{
+  border: 1.6px solid #000000;
+  background-color: rgb(241, 247, 255);
+}
+.join-now{
+  margin: 10px;
+  justify-content: center;
+  text-align: center;
+}
+.linkedin-footer{
+  width: 100px;
+}
+footer {
+  background-color: #f3f3f3;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
